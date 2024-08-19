@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.logo-pagina{
+    width: 20%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    padding: 14px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+.navbar a:hover{
+    background-color: rgb(174, 240, 82) ;
+    color: white;
+}
+
+
+/* Primera Seccion -> */
+
+.informacion-seccion{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    justify-content: space-evenly   ;
+    align-items: center;
+    /* gap: 2rem; */
+}
+
+.informacion-seccion .contenidos{
+    /* padding: 4rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    gap: 2rem;
+    width: 50%;
+}
+
+img.chica-uteista{
+    width: 40rem;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+
+.informacion-seccion .contenidos button{
+    padding: 1.5rem;
+    border-radius: 4rem;
+    border: none;
+    color: white;
+    background-color: rgb(174, 240, 82);
+    font-size: 1.6rem;
+}
+
+.informacion-seccion .contenidos button:hover{
+    color: white;
+    background-color: rgb(134, 206, 32);
+}
+
+.informacion-seccion .contenidos h1,p{
+    font-size: 2rem;
+
+}
+
+/* Primera Seccion <- */
+
+/* Segunda Seccion -> */
+
+.informacion-why{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.informacion-why article.cards-artc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.informacion-why article.cards-artc .card-infor{
+    width: 30rem;
+    height: 25rem;
+    background-color: rgb(199, 199, 199);
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.informacion-why article.cards-artc .card-infor i{
+    font-size: 5rem;
+}
+
+.informacion-why h2{
+    margin-left: 3rem;
+    align-self: flex-start;
+    font-size: 3rem;
+}
+
+.informacion-why article.cards-artc .card-infor h3{
+    font-size: 2rem;
+}
+
+.informacion-why article.cards-artc .card-infor p{
+    font-size: 1.8rem;
+}
+
+.informacion-why .card-artc-imagen{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(174, 240, 82);
+    margin: 1rem;
+    border-radius: 1.4rem;
+    padding: 3rem;
+    justify-content: space-around;
+    align-items: start;
+    width: 80%;
+}
+
+.informacion-why .card-artc-imagen img.imagen-why{
+    width: 25rem;
+}
+.informacion-why .card-artc-imagen .info-card-why{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.2rem;
+}
+
+.informacion-why .card-artc-imagen .info-card-why h3{
+    font-size: 2rem;
+}
+
+.informacion-why .card-artc-imagen .info-card-why cite{
+    font-size: 1.2rem;
+}
+
+/* Segunda Seccion <- */
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(213, 213, 213);
+}
+
+header button.btn-revista{
+    font-size: 1.5rem;
+    padding: 14px;
+    border-radius: 20px ;
+    border: none;
+    color: rgb(69, 69, 69);
+    background-color: rgb(141, 197, 64);
+}
+
+header button.btn-revista:hover{
+    background-color: rgb(134, 206, 32);
+    color: white;
+}
+
+
+body{
+    background-color: white;
+}
